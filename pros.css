@@ -1,0 +1,231 @@
+.menu{
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    margin-left: 870px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 1000; 
+    height: 60px;
+    background-color:  rgba(255, 251, 251, 0.5);
+    opacity: 0.5;
+  }
+  
+  
+  .menu ul{
+     display: flex;
+     text-decoration: none;
+     gap:35px;
+     padding-top:13px ;
+     padding-right: 35px;
+     background-color:#F2F3F5;
+     justify-content: center;
+     height: 35px;
+     border: 5px solid rgb(247, 244, 244);
+     border-radius: 30px;
+     text-align: center;
+     list-style: none;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+
+   
+   
+}
+ a:hover{
+/* background-color:rgb(251, 248, 248); */
+
+border-radius:20px ;
+
+}
+
+
+  .header{
+    font-size: 40px;
+    display: flex;
+    margin-top: 400px;
+   justify-content: center;
+  }
+  .picture{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+    
+  }
+  .picture1{
+    height: 650px;
+    /* border: 10px solid rgb(245, 243, 243); */
+    border-radius: 40px;
+ 
+
+  }
+  .picture2{
+    height: 650px;
+    /* border: 10px solid rgb(245, 243, 243); */
+    border-radius: 40px;
+ 
+
+  }
+  .about{
+    text-align: center;
+    margin-top: 200px;
+    border-radius:30px ;
+    background-color: #F2F3F5;
+    width: 90px;
+    /* padding-bottom: 10px;
+    font-size: 20px; */
+    height: 30px;
+    margin-left:1000px;
+
+  }
+  .asty{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+
+  }
+  .exp{
+    text-align: center;
+    margin-top: 200px;
+    border-radius:30px ;
+    background-color: #F2F3F5;
+    width: 90px;
+    /* padding-bottom: 10px;
+    font-size: 20px; */
+    height: 30px;
+    margin-left:1000px;
+
+  }
+  .tex{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+  }
+  .experience-section {
+    margin: 50px 0;
+}
+.job {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.column {
+    width: 30%;
+    margin: 0 30px;
+    text-align: center;
+}
+.year {
+    font-size: 18px;
+    color: grey;
+    margin-bottom: 10px;
+}
+.position {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.company {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.label {
+    background-color: #e0e0e0;
+    color: #333;
+    border-radius: 12px;
+    padding: 8px 12px;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.tex2{
+  text-align: center;
+    margin-top: 200px;
+    border-radius:30px ;
+    background-color: #F2F3F5;
+    width: 90px;
+    /* padding-bottom: 10px;
+    font-size: 20px; */
+    height: 30px;
+    margin-left:1000px;
+
+}
+.tex3{
+  display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  justify-items: center;
+  margin-top: 20px;
+  
+ 
+ 
+}
+.logos img {
+  max-width: 150px;
+  max-height: 100px;
+  object-fit: contain;
+  background-color: white;
+  color: black;
+}
+.fottext{
+  display: flex;
+  margin-top: 200px;
+ text-align: center;
+ font-size: 20px;
+  flex-direction: column;
+  
+}
+.end2{
+  color: gray;
+transition: opacity 5s ease-in-out;
+
+}
+.end2.visible {
+ opacity: 1;
+}
+a{
+  text-decoration: none;
+  color: grey;
+}
+.oli{
+  margin-left: 150px;
+  margin-top: 200px;
+}
+.links{
+  font-size: smaller;
+  display: flex;
+  flex-direction: row;
+ gap:10px;
+ margin-left:  140vh;
+}
+@media (max-width: 768px) {
+  .picture {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .experience-section {
+      flex-direction: column;
+  }
+
+  .column {
+      width: 80%;
+      margin: 10px auto;
+  }
+
+  .logos img {
+      width: 80px;
+  }
+}

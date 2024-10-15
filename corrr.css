@@ -1,0 +1,174 @@
+.butt,.img{
+    margin-top: 20px;
+  
+    background-color: gray;
+    display: flex;
+    margin-left: 1000px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 48px; 
+    border-radius: 90px;
+    z-index: 1000; 
+    height: 50px;
+  }
+  .butt,.img{
+      opacity: 0.5;
+  }
+  .matin{
+    display: flex;
+    justify-content: center;
+    margin-top: 27vh;
+    text-align: center;
+    font-size: 90px;
+  }
+  .tex{
+    text-align: center;
+    margin-top: 45px;
+    border-radius:30px ;
+    background-color: #F2F3F5;
+    width: 90px;
+    padding-top: 10px;
+    /* padding-bottom: 10px;
+    font-size: 20px; */
+    height: 35px;
+    margin-left:1000px;
+  }
+  .photo{
+    text-align: center;
+    margin-top: 150px;
+  }
+  .under{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.photo2{
+    text-align: center;
+    margin-top:40px;
+}
+.photo3{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+.text{
+    display: flex;
+    justify-content: baseline;
+    font-size: medium;
+    margin-top: 20px;
+    margin-left: 300px;
+    font-size: 20px;
+    
+}
+.soz2{
+    margin-top: 30px;
+    color: gray;
+    font-size: 20px;
+    margin-left: 300px;
+}
+.photo4{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+.photo5{
+    text-align: center;
+    margin-top:60px;
+}
+.photo6{
+    text-align: center;
+    margin-top:60px;
+}
+.photo7{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+.photo8{
+    text-align: center;
+    margin-top:60px;
+}
+.photo9{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+.photo10{
+    text-align: center;
+    margin-top:60px;
+}   
+.photo11{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+.fottext{
+    display: flex;
+    margin-top: 200px;
+   text-align: center;
+   font-size: 20px;
+    flex-direction: column;
+    
+}
+.end2{
+    color: gray;
+transition: opacity 5s ease-in-out;
+
+}
+.end2.visible {
+   opacity: 1;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+.oli{
+    margin-left: 150px;
+    margin-top: 200px;
+}
+.links{
+    font-size: smaller;
+    display: flex;
+    flex-direction: row;
+   gap:10px;
+   margin-left:  140vh;
+}
+@media (max-width: 768px) {
+    .photo, .photopart2, .photopart3, .photopart4, .photopart5, .photopart6 {
+        flex-direction: column;
+        width: 20px;
+        align-items: center;
+    }
+    .text{
+        font-size: 40px;
+    }
+    .matin{
+        font-size: 40px;
+    }
+    
+    .menu ul {
+      
+        justify-content: flex-start;
+        padding-top:500px;
+    }
+    
+    .overall {
+        flex-direction: column;
+    }
+    .links{
+        flex-direction: column;
+         
+     padding-left: 200px;
+
+    }
+}
